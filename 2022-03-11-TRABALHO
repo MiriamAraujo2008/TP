@@ -1,0 +1,19 @@
+programa
+{
+	funcao inicio()
+	{
+		inteiro Cursoinformatica, Mturma, Mdisciplina, Maluno, Mnota
+		
+		Msoma=0 
+		Mdisciplina=0 
+		Mnota=0
+		
+		para(Mnota=1; Mnota<=100; Mnota++)
+		{
+		Escreva("informática básica");
+		Leia(Mnota);
+		Escreva("técnicas de programação")
+		Leia(M 
+		}
+	
+}

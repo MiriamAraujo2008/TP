@@ -1,19 +1,20 @@
 programa
 {
-	funcao inicio()
+	funcao inicio() 
 	{
-		inteiro Cursoinformatica, Mturma, Mdisciplina, Maluno, Mnota
+		real Mportugues[3][5], Mfisica[3][5], Mingles[3][5], Mmatemática[3][5], Mbiologia[3][5]
+		cadeia Mnome[3][5]
+		inteiro Mindice, Mturma
+		Mindice=0
+		Mturma=0
 		
-		Msoma=0 
-		Mdisciplina=0 
-		Mnota=0
-		
-		para(Mnota=1; Mnota<=100; Mnota++)
+		para (Mturma=0; Mturma<=2; Mturma++)
 		{
-		Escreva("informática básica");
-		Leia(Mnota);
-		Escreva("técnicas de programação")
-		Leia(M 
-		}
-	
-}
+		    para(Mindice=0; Mindice<=3; Mndice++)
+		    {
+		    escreva("digite um nome:")
+		    leia(Mnome[Mturma][Mindice])
+		    }
+		
+
+		
